@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css?family=M+PLUS+1:400|Archivo:800");
+
+body {
+  position: relative;
+}
+
+.home {
+    align-items: flex-start;
+    /*border: 1px none;*/
+    display: flex;
+    height: 1080px;
+    overflow: hidden;
+    width: 1920px;
+    
+}
+
+.grouped {
+    height: 1080px;
+    position: relative;
+    width: 1920px;
+}
+
+
+.quotespan {
+    position: absolute;
+    width: 35%; /*350px*/
+    height: 30%; /*110px*/
+    left: 6%; /*70px  for 960x720 website ratio*/
+    top: 32%; /*150px */
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 140%; /*29px*/
+    line-height: 37px;
+    letter-spacing: -0.025em;
+
+    color: #FFFFFF;
+
+    backdrop-filter: blur(10px);
+}
+
+
+.rect {
+    position: absolute;
+    width: 1920px;
+    height: 1005px;
+    left: 0px;
+    top: 5px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.rect-1 {
+    position: absolute;
+    width: 1920px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+
+    background: #07080D;
+}
+
+
+.rect-2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1920px;
+    height: 1005px;
+    left: 0px;
+    right: 0px;
+    border: 1px solid #000000;
+    
+    background-image: url("https://matthewsegall.files.wordpress.com/2015/07/galaxy-wallpapers-17.jpg?w=1024&h=576");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+}
+
+.rect-3 {
+    position: absolute;
+    width: 1920px;
+    height: 100px;
+    left: 0px;
+    top: 1004px;
+
+    background: #000000;
+}
+
+
+.rect-4 {
+    position: absolute;
+    width: 1920px;
+    height: 960px;
+    left: 0px;
+    top: 76px;
+
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.home-1 {
+    position: absolute;
+    width: 178px; /*178px*/
+    height: 75px; /*75px*/
+    left: 77%; /*530px*/
+    top: 12px; /*12px*/
+
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 46px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.about {
+    position: absolute;
+    width: 229px; /*229px*/
+    height: 75px;
+    left: 82%; /*610px*/
+    top: 12px;
+
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 46px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.contact {
+    position: absolute;
+    width: 229px; /*229px*/
+    height: 75px; /*75px*/
+    left: 89%; /*731px*/
+    top: 12px; /*12px*/
+
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 46px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.constellation {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 25px;
+    top: 18px;
+
+    transform: rotate(90deg);
+}
+
+.astronaut-1 {
+    position: absolute;
+    width: 20%; /*250px*/
+    height: 35%; /*230px*/
+    left: 50%;
+    top: 30%;
+    object-fit: cover;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10%;
+}
+
+.space-1 {
+    position: absolute;
+    width: 33%; /*295px*/
+    height: 40%; /*195px*/
+    left: 57%; /*550px*/
+    top: 11%; /*105px*/
+    object-fit: cover;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10%;
+}
+
+.line-1 {
+    height: 40px;
+    left: 84%;/*655px*/
+    position: absolute;
+    top: 17px;
+    width: 1px;
+}
+
+.line-2 {
+    height: 40px;
+    left: 90.5%; /*770px*/
+    position: absolute;
+    top: 17px;
+    width: 1px;
+}
+
+.line-3 {
+    height: 40px;
+    left: 98%;
+    position: absolute;
+    top: 17px;
+    width: 1px;
+}
+
+.homeicon {
+    height: 25px;
+    left: 1505px; /*560px*/
+    object-fit: cover;
+    position: absolute;
+    top: 23px;
+    width: 25px;
+}
+
+.abouticon {
+    height: 25px;
+    left: 84.5%; /*661px*/
+    object-fit: cover;
+    position: absolute;
+    top: 23px;
+    width: 25px;
+}
+
+.contacticon {
+    height: 23px;
+    left: 91%; /*770px*/
+    object-fit: cover;
+    position: absolute;
+    top: 24.5px;
+    width: 23px;
+}
